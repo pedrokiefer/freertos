@@ -1,0 +1,6 @@
+#!/bin/bash --norc
+
+exec -a bfin-elf-ld \
+    external/com_analog_blackfin_toolchain_elf_gcc_4_5/bin/bfin-elf-ld \
+    "$@"
+

@@ -1,0 +1,7 @@
+#!/bin/bash --norc
+
+PATH="${PWD}/external/com_analog_blackfin_toolchain_elf_gcc_4_5/bin/:$PATH" \
+    exec -a bfin-elf-gcc \
+    external/com_analog_blackfin_toolchain_elf_gcc_4_5/bin/bfin-elf-gcc \
+    "$@"
+
